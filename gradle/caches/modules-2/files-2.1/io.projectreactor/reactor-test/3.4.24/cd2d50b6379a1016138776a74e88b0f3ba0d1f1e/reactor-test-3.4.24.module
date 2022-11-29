@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.projectreactor",
+    "module": "reactor-test",
+    "version": "3.4.24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reactor-test-3.4.24.jar",
+          "url": "reactor-test-3.4.24.jar",
+          "size": 138552,
+          "sha512": "27a1b105d3d6e8e975d86cb807c2a7c2b93aff6dfb91f3f3168b03801bb2d5522c20a467ccf025bbea9d446e9153c9755c5f808c453d91d479e6954959ea676d",
+          "sha256": "23e89b148cbe67b94d56c9e90041624d5d3c23d2b72d64594a0501792bfb59fd",
+          "sha1": "8cab7877d1dcfc287fcaf865a8114c9865be29a3",
+          "md5": "4c0b028488fb89e617318eb7c76ef267"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reactor-test-3.4.24.jar",
+          "url": "reactor-test-3.4.24.jar",
+          "size": 138552,
+          "sha512": "27a1b105d3d6e8e975d86cb807c2a7c2b93aff6dfb91f3f3168b03801bb2d5522c20a467ccf025bbea9d446e9153c9755c5f808c453d91d479e6954959ea676d",
+          "sha256": "23e89b148cbe67b94d56c9e90041624d5d3c23d2b72d64594a0501792bfb59fd",
+          "sha1": "8cab7877d1dcfc287fcaf865a8114c9865be29a3",
+          "md5": "4c0b028488fb89e617318eb7c76ef267"
+        }
+      ]
+    }
+  ]
+}

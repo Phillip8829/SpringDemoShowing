@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-test-autoconfigure",
+    "version": "2.7.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.7.5"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-test",
+          "version": {
+            "requires": "2.7.5"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "2.7.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-test-autoconfigure-2.7.5.jar",
+          "url": "spring-boot-test-autoconfigure-2.7.5.jar",
+          "size": 216371,
+          "sha512": "b6309380db23e95a611a21203e47c1a37616a7cd145d30e50eda0d1b1a0a8519f235a26d16ef3c36dfebce3612621f616bc0d069a6de648e7dc630a25a469d5a",
+          "sha256": "f9432c6efe2ae6765ee9b5c94d692dd8e13e83c1cdf67481ab07057b7c601409",
+          "sha1": "b01668d3ed2d5d9e56072108f04030cd2caceb0e",
+          "md5": "d9cfc43d5ab0ae978a1487e5cab0d6d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.7.5"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-test",
+          "version": {
+            "requires": "2.7.5"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "2.7.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-test-autoconfigure-2.7.5.jar",
+          "url": "spring-boot-test-autoconfigure-2.7.5.jar",
+          "size": 216371,
+          "sha512": "b6309380db23e95a611a21203e47c1a37616a7cd145d30e50eda0d1b1a0a8519f235a26d16ef3c36dfebce3612621f616bc0d069a6de648e7dc630a25a469d5a",
+          "sha256": "f9432c6efe2ae6765ee9b5c94d692dd8e13e83c1cdf67481ab07057b7c601409",
+          "sha1": "b01668d3ed2d5d9e56072108f04030cd2caceb0e",
+          "md5": "d9cfc43d5ab0ae978a1487e5cab0d6d0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-test-autoconfigure-2.7.5-javadoc.jar",
+          "url": "spring-boot-test-autoconfigure-2.7.5-javadoc.jar",
+          "size": 416689,
+          "sha512": "806edea9d4e1022e568c309dd8e13f96b9ddc431a3fdf7305ceb3c335a345e9e3e8cad238120125d46d4ebbe238a500a332438e18ca8b350ae131cb3a3d67520",
+          "sha256": "b02d698d7e7dd42b16cf67be474b8dc54f17b0005a6ac1d282a08acdcf8596d4",
+          "sha1": "957a8031c834f6469805d2014e47a19064a761d8",
+          "md5": "154a74bd288771a9975601cb31907353"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-test-autoconfigure-2.7.5-sources.jar",
+          "url": "spring-boot-test-autoconfigure-2.7.5-sources.jar",
+          "size": 218890,
+          "sha512": "81e48d5f87509567816cb387609ec855e416bd8bec1fb459061743ea22a4d4a2903815ea1a56bac3c6cf0c03d4e9dc3c266a51518c4b21304ff824828d2bb748",
+          "sha256": "3af47e5ae706f0451b461180bbe1d21af034f18ffeddc63f250c67ef755b1c24",
+          "sha1": "76b8b4d038e07ab4acfc9b3efb14cc4239bed2f3",
+          "md5": "a7ccf0365a39781df6e12453f5358b1c"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-test-autoconfigure-2.7.5.jar",
+          "url": "spring-boot-test-autoconfigure-2.7.5.jar",
+          "size": 216371,
+          "sha512": "b6309380db23e95a611a21203e47c1a37616a7cd145d30e50eda0d1b1a0a8519f235a26d16ef3c36dfebce3612621f616bc0d069a6de648e7dc630a25a469d5a",
+          "sha256": "f9432c6efe2ae6765ee9b5c94d692dd8e13e83c1cdf67481ab07057b7c601409",
+          "sha1": "b01668d3ed2d5d9e56072108f04030cd2caceb0e",
+          "md5": "d9cfc43d5ab0ae978a1487e5cab0d6d0"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-test-autoconfigure-maven-optional",
+          "version": "2.7.5"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-test-autoconfigure-2.7.5.jar",
+          "url": "spring-boot-test-autoconfigure-2.7.5.jar",
+          "size": 216371,
+          "sha512": "b6309380db23e95a611a21203e47c1a37616a7cd145d30e50eda0d1b1a0a8519f235a26d16ef3c36dfebce3612621f616bc0d069a6de648e7dc630a25a469d5a",
+          "sha256": "f9432c6efe2ae6765ee9b5c94d692dd8e13e83c1cdf67481ab07057b7c601409",
+          "sha1": "b01668d3ed2d5d9e56072108f04030cd2caceb0e",
+          "md5": "d9cfc43d5ab0ae978a1487e5cab0d6d0"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-test-autoconfigure-maven-optional",
+          "version": "2.7.5"
+        }
+      ]
+    }
+  ]
+}

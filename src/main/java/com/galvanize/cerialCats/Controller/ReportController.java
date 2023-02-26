@@ -34,9 +34,9 @@ public class ReportController {
 
     //Get All
     @GetMapping("")
-    List<Report> getAllReports()
+    String getAllReports()
     {
-        return reportRepo.findAll();
+        return "Hello There";
     }
 
     //Get One
